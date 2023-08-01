@@ -1,0 +1,164 @@
+.viewDetails-container{
+    width: 96.5%;
+    height: 92.15%;
+    // background-color: rgb(121, 65, 65);
+    border-radius: 9px;
+
+    .viewdetails-nav-txt{
+        // width: 13.5rem;
+        span{
+            color: #000;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    .details-container{
+        margin-top: 1rem;
+        width: 100%;
+        height: 15%;
+        background-color: rgba(255,255,255,0);
+        // opacity: 0.3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .detail-first{
+            width: 50%;
+            display: flex;
+            // justify-content: ;
+            height: 100%;
+            .details1{
+                margin-left: 23px;
+                width: 50%;
+                height: 100%;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                z-index: 2;
+            }
+    
+            .logo1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                width: 3.4rem;
+                height: 3.4rem;
+                background-color: #FFECE7;
+            }
+            .logo-txt1{
+                margin-left: 10px;
+                padding-top: 10px 0;
+                .text1{
+                   font-size: 20px;
+                   font-weight: 600;
+                }
+                .text2{
+                    font-size: 14px;
+                   font-weight: 500;
+                }
+            }
+            .logo2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                width: 3.4rem;
+                height: 3.4rem;
+                background-color: #F6F3FF;
+            }
+                    
+        }
+        .details2{
+            margin-left: 23px;
+            width: 30%;
+            height: 70%;
+            background-color: rgba(255,255,255,0);
+            display: flex;
+            justify-content: flex-end;
+
+            .logo3{
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                border-radius: 50%;
+                width: 3.4rem;
+                height: 3.4rem;
+                background-color: #fff;
+            }
+        }
+    }
+    .details-table-container{
+        display: flex;
+        margin-top: 0.8rem;
+        width: 100%;
+        height: 69%;
+        background-color: #fff;
+        flex-direction: column;
+
+        .filterOption{
+            width: 100%;
+            // height: 20%;
+            display: flex;
+            // align-items: center;
+            // justify-content: center;
+
+            .filter-container{
+                margin-left: 2%;
+                margin-top: 1%;
+                display: flex;
+                width: 70%;
+                justify-content: space-between;
+                .filterInput{
+                    width: 30%;
+                    margin-bottom: 4px;
+                    // height: 60%;
+
+                    #search{
+                        border-radius: 2.3rem;
+                        height: 3rem;
+                        border: 0.3px solid rgba(220, 220, 220, 1);
+                        text-align: center;
+
+                        &::placeholder {
+                            text-align:center;
+                            color: #ACACAC;
+                            font-family: Poppins;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                          }
+                    }
+                }
+            }
+        }
+        .addDomainBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+        }
+
+        .table-container{
+            width: 96%;
+            // height: 80%;
+            align-self: center;
+            overflow-y:scroll;
+        }
+    }
+    .pagination{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.2rem;
+
+        .select-page{
+            width: 69px;
+            height: 32px;
+            background-color: #fff;
+            position: absolute;
+            right: 3rem;
+            border: 1px solid #DFE3E8;
+        }
+    }
+}

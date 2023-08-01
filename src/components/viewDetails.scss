@@ -1,0 +1,121 @@
+.viewDetails-container{
+    width: 96.5%;
+    height: 92.15%;
+    // background-color: rgb(121, 65, 65);
+    border-radius: 9px;
+
+    .viewdetails-nav-txt{
+        // background-color: black;
+        margin-top: 2.7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 13.5rem;
+        height: 1.1rem;
+
+        span{
+            font-size: 12px;
+        }
+        #nav1{
+            color: #015BC4;
+        }
+        .nav2{
+            color: #9B9B9B;
+        }
+    }
+    .details-container{
+        margin-top: 1.7rem;
+        width: 100%;
+        height: 15%;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .details1{
+            margin-left: 23px;
+            width: 30%;
+            height: 70%;
+            background-color: #fff;
+            display: flex;
+        }
+
+        .logo1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 3.4rem;
+            height: 3.4rem;
+            background-color: #FFECE7;
+        }
+        .logo-txt1{
+            margin-left: 10px;
+            padding-top: 10px 0;
+            .text1{
+               font-size: 14px;
+               font-weight: 600;
+            }
+            .text2{
+                font-size: 11px;
+               font-weight: 500;
+            }
+        }
+        .logo2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 3.4rem;
+            height: 3.4rem;
+            background-color: #F6F3FF;
+        }
+        .details2{
+            margin-left: 23px;
+            width: 30%;
+            height: 70%;
+            background-color: #fff;
+            display: flex;
+            justify-content: flex-end;
+
+            .logo3{
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                border-radius: 50%;
+                width: 3.4rem;
+                height: 3.4rem;
+                background-color: #fff;
+            }
+        }
+    }
+    .details-table-container{
+        display: flex;
+        margin-top: 0.8rem;
+        width: 100%;
+        height: 65%;
+        background-color: #fff;
+        flex-direction: column;
+
+        .table-container{
+            width: 96%;
+            // height: 100%;
+            align-self: center;
+            overflow-y:scroll;
+        }
+    }
+    .pagination{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.2rem;
+
+        .select-page{
+            width: 69px;
+            height: 32px;
+            background-color: #fff;
+            position: absolute;
+            right: 3rem;
+            border: 1px solid #DFE3E8;
+        }
+    }
+}
